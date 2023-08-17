@@ -1,0 +1,39 @@
+body{
+    font-family: 'Arapey', serif;
+    color: #20242A;
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.red{
+    color: red;
+}
+
+.bg-img{
+    height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+	filter: brightness(0.9);
+	position: absolute;
+	z-index: -1;
+}
+
+.bottom-right{
+    height: 100px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
